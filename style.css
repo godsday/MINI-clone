@@ -1,0 +1,148 @@
+.min-icon{
+    width: 10px;
+    height: 10px;
+}
+
+    select::-ms-expand {
+        display: none;
+    
+}
+.accordion-button::after {
+
+    background-image: none;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+}
+.navbar-light .navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: none;
+    box-shadow: none;
+}
+.navbar{
+    transition: top 0.3s;
+    position: fixed;
+}
+
+
+
+
+.btn_mute {
+    right: 5%;
+    top: 30%;
+    border: none;
+    color: white;
+}
+
+.btn_menu{
+    padding-right: 13rem;
+    padding-left: 13rem;
+   
+}
+
+@media (max-width: 576px){
+    .btn_menu{
+    padding-left:2rem;
+    padding-right:2rem;
+    }
+    .icon{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width:991.9px) { 
+    .btn_menu{
+        padding-left:5rem;
+        padding-right:5rem;
+    
+   }
+
+ }
+
+
+
+.btn-check:active+.btn-outline-primary, .btn-check:checked+.btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active {
+    color: #fff;
+    background-color: #4a4c50;
+    border-color: #e5eaf0;
+    border: none;
+}
+.btn-outline-primary{
+    color: black;
+    border-color: transparent;
+    
+
+}
+
+.btn-outline-primary:hover {
+    color:black;
+     background-color:unset; 
+     border-color:unset;
+     
+}
+.card{
+    transition: .5s;
+    overflow: hidden;
+}
+
+.card:hover{
+    transform:scale(1.1);
+    overflow: hidden;
+}
+.img_card{
+    overflow: hidden;
+}
+
+
+.data{   
+    
+  
+    
+    margin: auto;
+    
+    
+    font-family: 'MINIRegular';
+    font-weight: normal;
+    
+    line-height: 1.375rem;
+}
+.data h3{
+    width: 37rem;
+    font-size: x-large;
+}
+footer{
+    width:100%;
+    height: fit-content;
+    background-color: black;
+}
+
+
+
+
+li{
+    color: #e5eaf0;
+    padding: 3vw;
+    
+}
+@media screen and (max-width:768px) {
+    .uk{
+        display: block !important;
+    
+    }
+    
+}
+.img{
+    width: 15%;
+    height: 15%;
+    margin: auto;
+    display: block;
+
+    
+    
+}
